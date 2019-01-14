@@ -126,7 +126,3 @@ $('.englishT').on('click', function () {
 $('.english').removeClass('hidden');
 $('.spanish').addClass('hidden');
 })
-
-// $('.navPortfolio').on('click', function () {
-//     $('.itemsPortfolio').addClass('showItems')
-// })

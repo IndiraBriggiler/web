@@ -160,11 +160,18 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/background/maderaCompu.jpg) no-repeat center center;
+	/* background: url(../img/background/maderaCompu.jpg) no-repeat center center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
-	height: 100%;
+	height: 100%; */
+
+	background: url(../img/background/maderaCompu.jpg) no-repeat;
+	background-size: cover;
+	background-position-y: -24vh;
+	background-position-x: center;
+	color: #cfcfcf;
+	position: relative;
 }
 header p {
 	color: #ffffff;
@@ -174,8 +181,8 @@ header p {
 	letter-spacing: 2px;
 }
 .intro-text {
-	padding-top: 250px;
-  padding-bottom: 450px;
+	padding-top: 18vh;
+  padding-bottom: 400px;
 
 	position: relative;
 	/* padding-top: 300px;
@@ -190,6 +197,9 @@ header p {
 }
 .intro-text .brand {
 	font-weight: 400;
+}
+.intro-text p {
+	margin-bottom: 7vh;
 }
 .btn-default {
 	color: #fff;
@@ -210,7 +220,7 @@ header p {
 	padding-top: 10px;
 	padding-right: 0;
 	padding-left: 0;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .services-title {
@@ -220,9 +230,12 @@ header p {
 #about-section {
 }
 #about-section .container {
+	height: auto;
+	width: 100%;
+	padding-left: 5vw;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: url(../img/background/aboutMe/prueba.png) right no-repeat;
+	background: url(../img/background/aboutMe/FONDOconBORDE.jpg) no-repeat;
 	background-size: auto 100%;
 }
 #about-section p {
@@ -277,6 +290,7 @@ header p {
 ==============================*/
 #works-section {
 	padding: 100px 0;
+	margin-bottom: 11vh;
 }
 .categories {
 	padding-bottom: 30px;
@@ -705,4 +719,31 @@ label {
 
 .hidden {
 	display: none;
+}
+
+.portfolioImages {
+	height: auto;
+}
+
+.about-text1 h3 {
+background-color: rgba(255,255,255,0.7);
+color: #444;
+}
+
+.about-text1 p {
+	background-color: rgba(255,255,255,0.7);
+	color: #444;
+}
+
+@media (max-width: 800px) {
+	header {
+		background-position-y: 0vh;
+	}
+	#about-section .container {
+		background: url(../img/background/aboutMe/aboutCortado.jpg) no-repeat;
+		padding-top: 16px;
+	}	
+	.aboutDescription {
+		margin-top: 160px;
+	}
 }
