@@ -64,7 +64,7 @@ a:hover, a:focus {
 #preloader {
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: 47vw;
 	right: 0;
 	bottom: 0;
 	background: #fff;
@@ -73,7 +73,7 @@ a:hover, a:focus {
 }
 #status {
 	position: absolute;
-	left: 50%;
+	left: 50% -32px;
 	top: 50%;
 	margin: -32px 0 0 -32px;
 	padding: 0;
@@ -182,11 +182,9 @@ header p {
 }
 .intro-text {
 	padding-top: 18vh;
-  padding-bottom: 400px;
+  padding-bottom: 385px;
 
 	position: relative;
-	/* padding-top: 300px;
-	padding-bottom: 220px; */
 	padding-right: 0;
 	padding-left: 0;
 }
@@ -236,7 +234,8 @@ header p {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	background: url(../img/background/aboutMe/FONDOconBORDE.jpg) no-repeat;
-	background-size: auto 100%;
+	/* background-size: auto 100%; */
+	background-size: 100% 100%;
 }
 #about-section p {
 	margin-top: 20px;
@@ -740,7 +739,7 @@ color: #444;
 		background-position-y: 0vh;
 	}
 	#about-section .container {
-		background: url(../img/background/aboutMe/aboutCortado.jpg) no-repeat;
+		background: url(../img/background/aboutMe/Captura\ de\ pantalla\ 2019-01-17\ a\ la\(s\)\ 14.01.31.png) no-repeat;
 		padding-top: 16px;
 	}	
 	.aboutDescription {
