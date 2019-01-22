@@ -101,8 +101,9 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: rgba(99, 96, 96, 0.5);
 	border-color: rgba(231, 231, 231, 0);
+	padding: 1vh;
 }
 #menu a.navbar-brand {
 	font-size: 20px;
@@ -123,6 +124,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #f5b5ba;
 }
+
 .on {
 	background-color: #444 !important;
 	padding: 0 !important;
@@ -166,7 +168,7 @@ header {
 	position: relative;
 	height: 100%; */
 
-	background: url(../img/background/maderaCompu.jpg) no-repeat;
+	background: url(../img/background/background.jpg) no-repeat;
 	background-size: cover;
 	background-position-y: -24vh;
 	background-position-x: center;
@@ -181,9 +183,9 @@ header p {
 	letter-spacing: 2px;
 }
 .intro-text {
-	padding-top: 18vh;
-  padding-bottom: 385px;
-
+	padding-top: 20vh;
+	padding-bottom: 51vh;
+	margin-left: 22vw;
 	position: relative;
 	padding-right: 0;
 	padding-left: 0;
@@ -197,7 +199,7 @@ header p {
 	font-weight: 400;
 }
 .intro-text p {
-	margin-bottom: 7vh;
+	margin-bottom: 3vh;
 }
 .btn-default {
 	color: #fff;
