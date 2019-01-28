@@ -17,7 +17,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://localhost:4000",
+                url: "http://indirabriggiler.com/mail/",
                 type: "POST",
                 data: {
                     name: name,
